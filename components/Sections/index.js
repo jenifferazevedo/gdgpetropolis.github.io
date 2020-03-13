@@ -29,14 +29,15 @@ p{
 `
 
 export function MainSection(props) {
+  
   return(
     <Section>
       <Row>
-        <Col span={12} className='backColor'>
-          <h1>{mainTitle ? mainTitle : 'Title'}</h1>
+        <Col md={24} lg={14} xl={12} className='backColor'>
+          <h1>{mainTitle ? mainTitle.toUpperCase() : 'Title'.toUpperCase()}</h1>
           <p>{mainText ? mainText : 'Text'}</p>
         </Col>
-        <Col span={12}>
+        <Col md={24} lg={10} xl={12}>
           <img src={mainImg ? mainImg : 'img/gdg_petropolis_logocomimagem.svg'} alt={altMainImg ? altMainImg : 'GDG - Petrópolis'} />
         </Col>
       </Row>

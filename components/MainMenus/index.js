@@ -14,16 +14,6 @@ const MainMenuContainer = styled.div`
   img{
     width: 200px;
   }
-  @media (max-width: 700px) {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
-    img{
-      width: 60vw;
-    }
-  }
 `;
 const MainMenuContainer2 = styled.div`
   width: 100%;

@@ -7,8 +7,8 @@ import EventMeetUp from "../components/EventMeetUp";
 export default () => {
   return (
     <>
-      <MainSection />
       <MainMenu />
+      <MainSection />
       <EventMeetUp />
       <MainFooter />
     </>
